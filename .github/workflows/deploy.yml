@@ -1,4 +1,4 @@
-name: Build & Deploy
+name: Deploy to Cloudflare Pages
 
 on:
   push:
@@ -8,6 +8,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
     steps:
       - uses: actions/checkout@v4
 
@@ -22,12 +25,11 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Deploy to VPS
-        uses: burnett01/rsync-deployments@7.0.1
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
         with:
-          switches: -avzr --delete
-          path: dist/
-          remote_path: /var/www/smarex-website/
-          remote_host: ${{ secrets.VPS_IP }}
-          remote_user: root
-          remote_key: ${{ secrets.VPS_SSH_KEY }}
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: smarex
+          directory: dist
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
