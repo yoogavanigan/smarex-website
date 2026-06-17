@@ -1,0 +1,16 @@
+---
+const { name, status, sector, desc } = Astro.props;
+
+const badgeMap = {
+  build: "Build Priority",
+  sell:  "Sell Candidate",
+  dev:   "Development",
+};
+---
+
+<div class={`brand-card status-${status} reveal`}>
+  <span class={`card-badge badge-${status}`}>{badgeMap[status]}</span>
+  <div class="card-name">{name}</div>
+  <div class="card-sector">{sector}</div>
+  <p class="card-desc">{desc}</p>
+</div>

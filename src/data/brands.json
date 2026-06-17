@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Gulfresh",
+    "status": "build",
+    "sector": "GCC · Cleaning Services · Class 37",
+    "desc": "Premium cleaning services brand for GCC markets. Trademark filing active with a clear market window. Built for rapid entry across Qatar and UAE."
+  },
+  {
+    "name": "Idlyo",
+    "status": "build",
+    "sector": "GCC & India · F&B Chain",
+    "desc": "South Indian F&B chain rooted in a multi-generational family catering legacy from Theni, Tamil Nadu. Authentic heritage in a modern format."
+  },
+  {
+    "name": "Flagpur",
+    "status": "build",
+    "sector": "India · Flag Marketplace · B2B & B2C",
+    "desc": "Flag marketplace connected to Tirupur's textile legacy and freedom fighter Kodi Kumaran's heritage. Three.js 3D city game prototype already built."
+  },
+  {
+    "name": "Equbri",
+    "status": "sell",
+    "sector": "India · Algo Trading Platform",
+    "desc": "Algorithmic trading platform built on Angular, Ionic, Spring Boot, and Kite Connect. Three viable business model paths identified under SEBI framework."
+  },
+  {
+    "name": "Probfit",
+    "status": "sell",
+    "sector": "India · Trading Discipline",
+    "desc": "Probability-based trading discipline marketplace with a proprietary ProbFit Score system. Co-founder vision document complete."
+  },
+  {
+    "name": "Yeluck",
+    "status": "sell",
+    "sector": "India · Hyperlocal E-Commerce · Bodi",
+    "desc": "Marketplace, delivery, and gamified rewards for Bodinayakkanur. Yeluck Points and Lucky Draws. Break-even projected Month 8–10. Co-founder on the ground."
+  },
+  {
+    "name": "Parkji",
+    "status": "sell",
+    "sector": "India · Smart Parking · PropTech",
+    "desc": "Smart parking and PropTech platform for high-density urban Indian markets."
+  },
+  {
+    "name": "Medippo",
+    "status": "dev",
+    "sector": "India · MedTech · Theni District",
+    "desc": "Mobile medical care for senior citizens. Gulf NRI subscription model. Phased van → bus → drone → air ambulance infrastructure. 10-year financial model produced."
+  },
+  {
+    "name": "Missilent",
+    "status": "dev",
+    "sector": "India · Defence Tech",
+    "desc": "Anti-stealth defence tech using multi-spectral passive detection fusion. iDEX ADITI grant pathway identified."
+  },
+  {
+    "name": "Ammnee",
+    "status": "dev",
+    "sector": "India · Women Empowerment · Kongu",
+    "desc": "E-commerce and aggregator platform for the Kongu region. Name derived from the Tamil term for respectful woman. Focused on Coimbatore, Pollachi, Avinashi."
+  },
+  {
+    "name": "Castoven",
+    "status": "dev",
+    "sector": "India · Clean Energy · Rocket Stove",
+    "desc": "Parent manufacturer brand for rocket stove hardware. Hero product line: LSTOVE. Wood fuel supply identified as a natural business complement."
+  },
+  {
+    "name": "Yfreshy",
+    "status": "dev",
+    "sector": "Global · Vertical Farming",
+    "desc": "Vertical farming startup and product brand selling fresh produce globally. Domain secured at yfreshy.com."
+  },
+  {
+    "name": "Aramsey",
+    "status": "dev",
+    "sector": "Global · Humanitarian Non-Profit",
+    "desc": "Humanitarian non-profit brand whose name is rooted in Arabic and Persian words for peace. Purpose-driven and globally facing."
+  }
+]
