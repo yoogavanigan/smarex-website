@@ -11,6 +11,7 @@ import brands from '../data/brands.json';
   <a href="#" class="nav-wordmark">Smarex</a>
   <ul class="nav-links">
     <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#academy">Academy</a></li>
     <li><a href="#partner">Partner</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -137,6 +138,60 @@ import brands from '../data/brands.json';
   </div>
   <div class="portfolio-grid">
     {brands.map(brand => <BrandCard {...brand} />)}
+  </div>
+</div>
+
+<!-- ACADEMY -->
+<div class="academy-wrap" id="academy">
+  <div class="academy-inner">
+    <div class="reveal">
+      <p class="section-tag">Smarex Academy</p>
+      <h2 class="section-heading">Research &amp; <em>Programmes</em></h2>
+      <div class="section-rule"></div>
+      <p class="academy-intro">A knowledge and community engine — building research capability, security culture, and entrepreneurial talent across GCC and India.</p>
+    </div>
+    <div class="academy-grid">
+
+      <div class="academy-card reveal">
+        <div class="academy-card-track">Research</div>
+        <div class="academy-card-num">01</div>
+        <div class="academy-card-title">Industry &amp; Market Research</div>
+        <p class="academy-card-desc">Structured research events and published intelligence reports covering GCC and Indian market verticals — designed to inform investors, founders, and strategic partners inside and outside the Smarex portfolio.</p>
+        <ul class="academy-card-list">
+          <li>Sector intelligence reports</li>
+          <li>GCC &amp; India market summits</li>
+          <li>Investor-grade research outputs</li>
+          <li>Annual Smarex Market Outlook</li>
+        </ul>
+      </div>
+
+      <div class="academy-card reveal">
+        <div class="academy-card-track">Security</div>
+        <div class="academy-card-num">02</div>
+        <div class="academy-card-title">Bug Bounty Services</div>
+        <p class="academy-card-desc">Managed bug bounty and responsible disclosure programmes as a service — offered to GCC startups, enterprises, and government entities seeking structured security research without building an internal team.</p>
+        <ul class="academy-card-list">
+          <li>Managed disclosure programmes</li>
+          <li>Researcher reward infrastructure</li>
+          <li>Vulnerability triage &amp; reporting</li>
+          <li>Security posture benchmarking</li>
+        </ul>
+      </div>
+
+      <div class="academy-card reveal">
+        <div class="academy-card-track">Community</div>
+        <div class="academy-card-num">03</div>
+        <div class="academy-card-title">Hackathons</div>
+        <p class="academy-card-desc">High-energy build events designed to groom young talent from GCC campuses and Tamil Nadu colleges — connecting problem statements from the Smarex portfolio directly to the next generation of builders and entrepreneurs.</p>
+        <ul class="academy-card-list">
+          <li>48-hour build challenges</li>
+          <li>GCC &amp; Tamil Nadu campus editions</li>
+          <li>Mentorship by portfolio founders</li>
+          <li>Incubation pathways for top teams</li>
+        </ul>
+      </div>
+
+    </div>
   </div>
 </div>
 

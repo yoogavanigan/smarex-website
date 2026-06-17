@@ -76,5 +76,11 @@
     "status": "dev",
     "sector": "Global · Humanitarian Non-Profit",
     "desc": "Humanitarian non-profit brand whose name is rooted in Arabic and Persian words for peace. Purpose-driven and globally facing."
+  },
+  {
+    "name": "Smarex Academy",
+    "status": "build",
+    "sector": "GCC & India · Research · Education · Tech",
+    "desc": "Knowledge and community engine running industry research events, bug bounty services, and hackathons — grooming the next generation of builders across GCC and Tamil Nadu."
   }
 ]
